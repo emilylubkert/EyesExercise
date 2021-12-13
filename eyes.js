@@ -13,7 +13,7 @@ document.onmousemove = (event) => {
 };
 
 function moveImage(event) {
-    img.style.left = event.clientX - 150 + "px";
-    img.style.top = event.clientY - 200 + "px";
+    img.style.left = (event.clientX + 10) + "px";
+    img.style.top = (event.clientY + 10) + "px";
 }
 document.addEventListener('mousemove', moveImage)

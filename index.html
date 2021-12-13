@@ -4,9 +4,9 @@
  
   
   <body>
-    <button id='pizza' onclick="document.getElementById('image').src='pizza.png'">Hungry Eyes</button>
-    <button id='heart' onclick="document.getElementById('image').src='heart.png'">Lonely Eyes</button>
-    <button id='water' onclick="document.getElementById('image').src='water.png'">Thirsty Eyes</button>
+    <button id='pizza' onclick="document.getElementById('image').src='pizza.png',console.log('pizza')">Hungry Eyes</button>
+    <button id='heart' onclick="document.getElementById('image').src='heart.png',console.log('heart')">Lonely Eyes</button>
+    <button id='water' onclick="document.getElementById('image').src='water.png',console.log('water')">Thirsty Eyes</button>
 
     <div class="eyes">
       <div class="eye">
@@ -17,8 +17,8 @@
       </div>
     </div>
 
-    <div>
-      <img id="image" src="questionmark.png" width="300"/>
+    <div class="image-div">
+      <img id="image" src="questionmark.png" width="200"/>
     </div>
     <script src="eyes.js"></script>
   </body>
