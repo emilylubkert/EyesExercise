@@ -4,12 +4,12 @@
 This project displays 2 eyes, whose pupils move to follow the mouse. An image also moves to follow the mouse. At first, the image is a question mark: what do the eyes need? Users can click a button to change the image and provide what the eyes need.
 
 ## How to Run
-Images will load upon loading the [webpage](https://emilylubkert.github.io/Real-Time-Bus-Tracker/). Clicking the button changes the image.
+Images will load upon loading the [webpage](https://emilylubkert.github.io/EyesExercise/). Clicking the button changes the image.
 
 ## Roadmap of future improvements 
 - Choose a need from a drop-down menu to change image
 - Add more detail to face
-- Add text pop-ups to show 
+- Add text pop-ups to show message frome eyes
 
 ## License information 
 This project was created as an assignment as part of MIT xPro's Professional Certificate in Coding, a full stack development program.
